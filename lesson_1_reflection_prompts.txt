@@ -1,0 +1,61 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Du¿o ³atwiej by³o zlokalizowaæ b³¹d
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Mogê ³atwo sprawdziæ wczeœniejsze wersje i zobaczyæ czy nie pope³ni³em gdzieœ b³êdu albo literówki. W razie z³ych zmian mogê zawsze wróciæ do wczesniejszej wersji
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Plusem jest to ¿e zapisuje w momencie kiedy uwa¿am ¿e skoñczy³em wprowadzaæ zmiany iw nie udostêpniê po³owicznie zmienionego kodu. Autozapis jest bezpieczny w razie nag³ego wy³¹czenia komputera jednak mo¿e wyst¹piæ ryzyko wprowadzenia zmian których jednak nie chia³em wprowdziæ
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Poniewa¿ Git jest u¿ywany przez programistów a czêsto na jednym projekcie pracuje wiêcej ni¿ jedna osoba
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Porównam dwa pliki i ³atwo bêdzie znaleŸæ wprowadzone zmiany
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Bo zawsze mogê ³atwo sprawdziæ wprowadzone zmiany i w razie potrzeby wróciæ do dzia³aj¹cej wersji
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Sprawdzenie zmian w kodzie w programie
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Poniewa¿ bêdê mia³ dostêp do wszystkich wczeœniejszych rozwi¹zaæ i rozumowania 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+    Pozwala to unikaæ zbyt czêstego zapisywania nowych wersji i umo¿liwia robienie tego w momencie kiedy wprowadzimy znacz¹ce zmiany (ale nie zbyt znacz¹ce)
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Poniewa¿ niektóre zmiany w kodzie oddzia³uj¹ na inne czêœci programu (jakaœ zmiana w metodzie, mo¿e nazwa zmiennej albo klasy) wiêc rozs¹dne jest ¿e zmieniamy je w ka¿dym z plików
+sk³adaj¹cych siê na ca³y program. W google nie ma to wiêkszego sensu gdy¿ pliki s¹ na ogól od siebie niezale¿ne
+
+How can you use the commands git log and git diff to view the history of files?
+
+     Git log umo¿liwia zobaczenia listy wszystkich zmian wraz z ich krótkim opisem a git diff umo¿liwia porównanie dwóch contributions pokazuj¹c co zosta³o zmienione, dodane lub usuniete
+
+How might using version control make you more confident to make changes that could break something?
+
+     Poniewa¿ zawsze mogê ³atwo wróciæ do wczeœniejszych wersji i sprawdziæ a której z nich zosta³ wporwadzony bug
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+     otworzyæ pliki w sublime i poedytowaæ kod a potem sprawdziæ wersje
+
+
+003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a

@@ -1,0 +1,29 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    Kiedy pracujê na jednym projekcie z kilkoma osobami lub po prostu chce mieæ bezpiecznie przechowywane w chmurze
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Bo wtedy ka¿dy commit bêdzie przemyœlany i logiczny, jest to te¿ bezpieczniejsze gdy¿ na wypadek gdyby upload robi³ siê raz dziennie móg³bym utraciæ jakieœ dane
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fork to kopia repozytorium z GiHuba na GitHubie, która ma odniesienie do orygina³u (widaæ od kogo kopiowa³em); Branch czyli ga³¹Ÿ to odnoga w obrêbie repozytorium, np. gdy chcemy rozwijaæ na boku jak¹œ cechê aplikacji bez ingerencji w oryginalny kod; clone to kopia repozytorium ale bez odnieœenia wiêc nie wiadomo z k¹d ta kopia pochodzi
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+   poniewa¿ mo¿emy pracowaæ na tej wersji offline, co wiêcej bêdziemy mogli potem bez problemu po³¹czyæ 2 wersje nawet jeœli od ostatniej znanej ja i ktoœ inny wprowadzi³ zmiany do projektu
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Du¿o trudniejsze by³oby utrzymywanie porz¹dku w ró¿nych wersjach kodu, zw³aszczy dy pracuje nad nim kilka osób jednoczeœnie. £atwiejsze by³oby to ¿e nie trzebaby³oby uczyæ siê obs³ugi Gita
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Bo w razie gdyby zrobi³ jakiœ b³¹d nie wp³ynie to na g³ówn¹ wersjê programu, umo¿liwia to tak¿e innym osobom sprawdzenie kodu przed jego zaakcpetowaniem i do³¹czeniem zmian do master branch. Minusem jest fakt ¿e proces pull/push request mo¿e byæ momentami bardzo skomplikowany i do³¹czenie zmian z jednej ga³êzi mo¿e nie byæ takie ³atwe

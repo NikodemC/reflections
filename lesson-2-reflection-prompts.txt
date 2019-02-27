@@ -1,0 +1,31 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Tworzymy nowe repozytorium w którym znajduj¹ siê pliki na których bêdziemy pracowaæ, repozsytorium umo¿liwia œledzenie zmian i wspó³pracê na plikach
+
+How is the staging area different from the working directory and the repository?
+
+staging area to taki poziom poœredni umo¿liwiaj¹cy wybór które pliki commitniemy razem, ¿eby zachowaæ logiczn¹ ca³oœæ. Working directory to po prostu lokalizacja na któej pracujemy i w której znajduje siê repozytorium, a repozytorium to zbiór plików, z histori¹ commitów i jakimiœ metadanymi.
+
+What value do you think it offers?
+
+Umo¿liwia to dodawanie plików w paczkach (commitach) które uznamy za najbardziej odpowiednie
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+poniewa¿ mogê porównywaæ working directory ze staging area oraz staging area z najbardziej aktualnym commitem. Co wiêcej mogê dodawaæ i usuwaæ w razie potrzeby zmiany ze staging area co umo¿liwia dodwanie w jednym commicie logicznych i powi¹zanych zmian
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Kiedy chcemy wypróbowaæ nowe funkcje, czasem ryzykowne, wtedy zrobienie osobnej ga³êzi daje mo¿liwoœc pracy na pliku bez ingerencji w "master"
+
+How do the diagrams help you visualize the branch structure?
+
+Pozwala zobaczyæ które ga³êzie zosta³y wporwadzone w którym momencie (po którym commicie do g³ównej ga³êzi) przez co widzimy dok³adnie z których ga³êzi dotrzemy do których funkcji
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+£¹czymy 2 pliki w jeden zachowuj¹c wszystkie czêsci wspólne i dodaj¹c nowy kod. W diagramie pokazujemy je jako odga³êzenia od g³ownej ga³êzi które mo¿emy potem zmerd¿owaæ i przeœledziæ hisotriê zmian na obu dlatego branch dodany do master mo¿na usun¹æ
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatyczne mergowanie oszczêdza mnóstwa pracy ale mo¿e te¿ prowadziæ do powstawania b³êdów gdy¿ GIT nie rozumie co robi nowa dodana albo zmieniona czêœæ kodu, dlatego mergowanie "rêczne" jest lepsze gdy¿ GIT poka¿e miejsca gdzie s¹ konflikty i pozwoli nam wybraæ któr¹ wersjê zachowaæ
